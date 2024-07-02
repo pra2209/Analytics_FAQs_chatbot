@@ -1,3 +1,17 @@
+!pip install -q openai==1.2.0 \
+                tiktoken==0.6.0 \
+                pypdf==4.0.1 \
+                langchain==0.1.1 \
+                langchain-community==0.0.13 \
+                chromadb==0.4.22 \
+                sentence-transformers==2.3.1
+!pip install streamlit
+!pip install streamlit-chat
+import streamlit as st
+from streamlit_chat import message
+import openai
+!pip install pypdf
+
 import json
 import tiktoken
 
